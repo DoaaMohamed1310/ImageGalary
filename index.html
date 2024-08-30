@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>responsive Image slider</title>
+        <!-- render element normaly -->
+        <link rel="stylesheet" href="style/normalize.css">
+        <!-- font awesome libaray -->
+        <link rel="stylesheet" href="style/all.min.css">
+        <!-- line icon -->
+        <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+        <!-- file css -->
+        <link rel="stylesheet" href="style/style.css">
+      </head>
+    <body>
+      <div class="container">
+        <div class="box">
+          <span style="--i:1;"><img src="./image/insta-post-1.png" alt="image"></span>
+          <span style="--i:2;"><img src="./image/insta-post-3.png" alt="image"></span>
+          <span style="--i:3;"><img src="./image/insta-post-4.png" alt="image"></span>
+          <span style="--i:4;"><img src="./image/insta-post-5.png" alt="image"></span>
+          <span style="--i:5;"><img src="./image/insta-post-6.png" alt="image"></span>
+          <span style="--i:6;"><img src="./image/insta-post-7.png" alt="image"></span>
+          <span style="--i:7;"><img src="./image/insta-post-8.png" alt="image"></span>
+          <span style="--i:8;"><img src="./image/insta-post-9.png" alt="image"></span>
+        </div>
+        <div class="dots">
+          <span class="dot active" onclick="currentSlider(1,45)"></span>
+          <span class="dot" onclick="currentSlider(2,90)"></span>
+          <span class="dot" onclick="currentSlider(3,135)"></span>
+          <span class="dot" onclick="currentSlider(4,180)"></span>
+          <span class="dot" onclick="currentSlider(5,225)"></span>
+          <span class="dot" onclick="currentSlider(6,270)"></span>
+          <span class="dot" onclick="currentSlider(7,315)"></span>
+          <span class="dot" onclick="currentSlider(8,360)"></span>
+
+
+        </div>
+        <div class="btns">
+          <div class="prev btn">&#10094;</div>
+          <div class="next btn">&#10095;</div>
+        </div>
+      </div>
+      <script src="./js/main.js"></script>
+    </body>
+</html>
